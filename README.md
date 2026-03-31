@@ -20,25 +20,13 @@ Ce projet est une application Android éducative démontrant l'utilisation des F
 
 Le layout utilise un LinearLayout vertical contenant une barre de boutons et un FrameLayout qui sert de conteneur vide pour les fragments.
 
-
-<LinearLayout ... android:orientation="vertical">
-    <LinearLayout android:orientation="horizontal">
-        <Button android:id="@+id/btnFragment1" ... />
-        <Button android:id="@+id/btnFragment2" ... />
-    </LinearLayout>
-    <FrameLayout android:id="@+id/fragment_container" ... />
-</LinearLayout>
+<img width="285" height="327" alt="image" src="https://github.com/user-attachments/assets/c7d6812e-2bff-4349-a910-2dce45569efe" />
 
 ### Étape 2 : Contrôleur Principal (MainActivity.java)
 
 Gère les clics sur les boutons et utilise le FragmentManager pour effectuer les transactions.
 
-private void loadFragment(Fragment fragment) {
-    FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-    transaction.replace(R.id.fragment_container, fragment);
-    transaction.addToBackStack(null);
-    transaction.commit();
-}
+<img width="544" height="113" alt="image" src="https://github.com/user-attachments/assets/6b367e21-b0b9-4d9e-a913-6954f2ba46a5" />
 
 ### Étape 3 : Fragments et Logique
 
