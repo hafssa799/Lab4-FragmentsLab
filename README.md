@@ -57,3 +57,12 @@ private void loadFragment(Fragment fragment) {
 ## Structure du Projet
 
 <img width="311" height="313" alt="image" src="https://github.com/user-attachments/assets/992ed171-f498-40ca-9342-2e1c5658746a" />
+
+## 📺 Démonstration Vidéo
+
+Cliquez sur le lien ci-dessous pour voir l'application en action :
+
+https://github.com/user-attachments/assets/eae8735b-2227-44f8-be75-0ed9c63e96f9
+
+
+
