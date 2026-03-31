@@ -20,6 +20,7 @@ Ce projet est une application Android éducative démontrant l'utilisation des F
 
 Le layout utilise un LinearLayout vertical contenant une barre de boutons et un FrameLayout qui sert de conteneur vide pour les fragments.
 
+
 <LinearLayout ... android:orientation="vertical">
     <LinearLayout android:orientation="horizontal">
         <Button android:id="@+id/btnFragment1" ... />
