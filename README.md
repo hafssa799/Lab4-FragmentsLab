@@ -5,13 +5,13 @@ Ce projet est une application Android éducative démontrant l'utilisation des F
 
 ## Fonctionnalités
 
-•Navigation Dynamique : Passage entre deux fragments via des boutons sans recharger l'activité.
+• Navigation Dynamique : Passage entre deux fragments via des boutons sans recharger l'activité.
 
-•Fragment One : Interaction simple avec un bouton qui modifie un texte.
+• Fragment One : Interaction simple avec un bouton qui modifie un texte.
 
-•Fragment Two : Utilisation d'une SeekBar pour mettre à jour une valeur en temps réel.
+• Fragment Two : Utilisation d'une SeekBar pour mettre à jour une valeur en temps réel.
 
-•Gestion du BackStack : Possibilité de revenir au fragment précédent avec le bouton "Retour" du téléphone.
+• Gestion du BackStack : Possibilité de revenir au fragment précédent avec le bouton "Retour" du téléphone.
 
 ## Étapes de Configuration
 
