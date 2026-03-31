@@ -15,7 +15,8 @@ Ce projet est une application Android éducative démontrant l'utilisation des F
 
 ## Étapes de Configuration
 
-Étape 1 : Interface Principale (activity_main.xml)
+
+### Étape 1 : Interface Principale (activity_main.xml)
 
 Le layout utilise un LinearLayout vertical contenant une barre de boutons et un FrameLayout qui sert de conteneur vide pour les fragments.
 
@@ -27,7 +28,7 @@ Le layout utilise un LinearLayout vertical contenant une barre de boutons et un 
     <FrameLayout android:id="@+id/fragment_container" ... />
 </LinearLayout>
 
-Étape 2 : Contrôleur Principal (MainActivity.java)
+### Étape 2 : Contrôleur Principal (MainActivity.java)
 
 Gère les clics sur les boutons et utilise le FragmentManager pour effectuer les transactions.
 
@@ -38,7 +39,7 @@ private void loadFragment(Fragment fragment) {
     transaction.commit();
 }
 
-Étape 3 : Fragments et Logique
+### Étape 3 : Fragments et Logique
 
 1.FragmentOne :
 
