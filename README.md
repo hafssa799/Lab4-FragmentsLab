@@ -32,23 +32,21 @@ Gère les clics sur les boutons et utilise le FragmentManager pour effectuer les
 
 1.FragmentOne :
 
-◦Vue : Un TextView et un Button.
+◦ Vue : Un TextView et un Button.
 
-◦Logique : Change le texte lors du clic sur le bouton.
+◦ Logique : Change le texte lors du clic sur le bouton.
 
 2.FragmentTwo :
 
-◦Vue : Un TextView et une SeekBar.
+◦ Vue : Un TextView et une SeekBar.
 
-◦Logique : Utilise onProgressChanged pour afficher la valeur de la barre de défilement (0 à 100).
+◦ Logique : Utilise onProgressChanged pour afficher la valeur de la barre de défilement (0 à 100).
 
 ## Structure du Projet
 
 <img width="311" height="313" alt="image" src="https://github.com/user-attachments/assets/992ed171-f498-40ca-9342-2e1c5658746a" />
 
 ## 📺 Démonstration Vidéo
-
-Cliquez sur le lien ci-dessous pour voir l'application en action :
 
 https://github.com/user-attachments/assets/eae8735b-2227-44f8-be75-0ed9c63e96f9
 
